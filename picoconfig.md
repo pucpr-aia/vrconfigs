@@ -37,7 +37,8 @@
 - No Starter Content
 2. Baixar SDK do PICO disponível no mesmo repositório do Teams e adicionar os plugins em uma pasta "Plugins" no root do projeto criado.
 3. Na Unreal, acesse `Project Settings -> Android` e altere `Minimum SDK Version` para 24 e `Target SDK Version` para 28
-4. Basta iniciar o packaging direcionado a Android ASTC e utilizar o instalador gerado na pasta do cook com o Oculos conectado por USB. Para testar conexão com óculos é possível usar o comando `adb devices`.
+4. Desabilite o plugin Oculus XR do Quest e verifique se os Plugins do PICO foram habilitados.
+5. Basta iniciar o packaging direcionado a Android ASTC e utilizar o instalador gerado na pasta do cook com o Oculos conectado por USB. Para testar conexão com óculos é possível usar o comando `adb devices`.
 
 ### Ferramenta de preview
 - Baixar preview do site do PICO
